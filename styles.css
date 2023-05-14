@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@media only screen and (min-width: 600px){
+    #container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    #main {
+        width: 750px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.card {
+    position: relative;
+    width: 33%;
+    height: 100%;
+    padding: 34px;
+    background-color: chartreuse;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5em;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    line-height: 1.4rem
+}
+.attribution {
+    position: absolute;
+    bottom:40px;
+    text-align: center;
+}
+.p-footer {
+    color:black;
+}
+a {
+    font-weight: bold;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    #container {
+        width: 100%;
+        font-size: 15px;
+    }
+    #main {
+        margin: 30px auto;
+        width: 350px;
+        display: block;
+        justify-content: center;
+    }
+    .card {
+        width:280px;
+        height: 390px;
+        padding: 40px;
+        margin: 0 auto
+    }
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+    .attribution {
+        position: relative;
+        margin-top: 20px;
+        bottom: 0;
+    }
+    
+}
+

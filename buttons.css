@@ -1,0 +1,35 @@
+
+button{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    bottom: 40px;
+    background-color: hsl(0, 0%, 95%);
+}
+button:hover{
+    cursor: pointer;
+}
+button:active {
+    background-color: transparent;
+    border: 2px solid white;
+}
+#b-sedans{
+    color:  hsl(31, 77%, 52%);
+}
+#b-sedans:active{
+    color:white;
+}
+#b-suvs{
+    color: hsl(184, 100%, 22%);
+}
+#b-suvs:active{
+    color:white;
+}
+#b-luxury{
+    color: hsl(179, 100%, 13%);
+}
+#b-luxury:active{
+    color:white;
+}
